@@ -1,0 +1,35 @@
+# Core dependencies
+fastapi==0.109.2
+uvicorn==0.27.1
+pydantic==2.6.1
+python-dotenv==1.0.1
+typings==3.10.0.0
+requests==2.31.0
+
+# LLM API clients
+openai==1.10.0
+anthropic==0.15.0
+huggingface-hub==0.20.3
+
+# Platform integrations
+twilio==8.12.0  # For WhatsApp
+facebook-sdk==4.0.0  # For Instagram
+
+# Utilities
+python-i18n==0.3.9  # For language support
+pangocffi==0.11.0  # For text processing
+loguru==0.7.2  # Enhanced logging
+prompt-toolkit==3.0.43  # For prompt management
+tenacity==8.2.3  # For retries
+pytimeparse==1.1.8  # For time parsing
+
+# Testing
+pytest==7.4.4
+pytest-cov==4.1.0
+requests-mock==1.11.0
+
+# Development
+black==23.12.1
+mypy==1.8.0
+isort==5.13.2
+flake8==6.1.0

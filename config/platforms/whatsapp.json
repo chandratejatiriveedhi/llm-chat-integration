@@ -1,0 +1,14 @@
+{
+  "api_version": "v17.0",
+  "phone_number_id": "YOUR_PHONE_NUMBER_ID",
+  "access_token": "YOUR_ACCESS_TOKEN",
+  "webhook_verify_token": "YOUR_WEBHOOK_VERIFY_TOKEN",
+  "webhook_url": "/webhook/whatsapp",
+  "message_templates": {
+    "greeting": "Hello! How can I assist you today?",
+    "error": "I'm having trouble processing your request. Please try again later."
+  },
+  "allowed_media_types": ["text", "image", "audio"],
+  "message_rate_limit": 40,
+  "session_timeout_minutes": 60
+}

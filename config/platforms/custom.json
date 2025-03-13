@@ -1,0 +1,14 @@
+{
+  "api_endpoint": "https://your-custom-api.example.com",
+  "api_key": "YOUR_API_KEY",
+  "webhook_url": "/webhook/custom",
+  "webhook_auth_header": "X-Custom-Auth",
+  "webhook_auth_value": "YOUR_AUTH_VALUE",
+  "message_templates": {
+    "greeting": "Welcome! How may I assist you?",
+    "error": "An error occurred. Please try again later."
+  },
+  "allowed_media_types": ["text", "image", "audio", "video", "file"],
+  "message_rate_limit": 60,
+  "session_timeout_minutes": 30
+}
